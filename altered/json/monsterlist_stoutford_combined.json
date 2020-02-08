@@ -1,0 +1,32 @@
+[
+    {
+        "id":"cave_scorpion_1",
+        "name":"Aggressive cave scorpion",
+        "iconID":"monsters_tometik3:72",
+        "maxHP":35,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":4,
+            "max":7
+        },
+        "spawnGroup":"scorpion_2",
+        "droplistID":"cave_scorpion",
+        "attackCost":3,
+        "attackChance":100,
+        "blockChance":100,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"sting_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        }
+    }
+]
