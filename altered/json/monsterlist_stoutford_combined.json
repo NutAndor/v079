@@ -28,5 +28,43 @@
                 }
             ]
         }
+    },
+    {
+        "id":"cave_troll_5",
+        "name":"Cave troll leader",
+        "iconID":"monsters_tometik5:18",
+        "maxHP":410,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":5,
+            "max":20
+        },
+        "spawnGroup":"cave_troll_5",
+        "phraseID":"lakecave2_troll_10",
+        "droplistID":"cave_troll_4",
+        "attackCost":5,
+        "attackChance":70,
+        "blockChance":50,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
