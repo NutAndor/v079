@@ -1,0 +1,19 @@
+[
+    {
+        "id":"arulircave_trap10",
+        "message":"The ground is very slippery. You can't get back onto the solid rock!",
+        "replies":[
+            {
+                "text":"Oh no... I can't swim!",
+                "nextPhraseID":"arulircave_trap10_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"arulircave_trap",
+                "value":10
+            }
+        ]
+    }
+]
