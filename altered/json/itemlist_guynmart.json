@@ -1,3 +1,9 @@
 [
-    
+    {
+        "id":"guynmart_flute",
+        "iconID":"items_japozero:371",
+        "name":"Lovis' Flute",
+        "displaytype":"quest",
+        "category":"other"
+    }
 ]
